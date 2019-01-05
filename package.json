@@ -1,17 +1,26 @@
 {
-  "name": "create-next-example-app",
+  "name": "thank-u-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/next"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahnsv/thank-u-next.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahnsv/thank-u-next/issues"
+  },
+  "homepage": "https://github.com/ahnsv/thank-u-next#readme",
   "dependencies": {
-    "eslint": "^5.11.1",
-    "eslint-config-standard": "^12.0.0",
-    "next": "7.0.2",
-    "next-eslint": "0.0.4",
-    "react": "16.7.0",
-    "react-dom": "16.7.0",
-    "styled-components": "^4.1.3"
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
   }
 }
