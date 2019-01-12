@@ -1,15 +1,25 @@
 import * as React from 'react'
 import * as classnames from 'classnames'
 import * as css from './Home.css'
+import ProjectList from './Projects/ProjectList';
 
-export const Home: React.FunctionComponent = props =>
-  <div className={classnames('test', css.home)}>
-    <ul>
-      <li>
-        usage classnames in Home.tsx
-      </li>
-      <li>
-        Layout.tsx set background-color hot-pink using global styled jsx
-      </li>
-    </ul>
+const HomeHero: React.FunctionComponent = () => (
+  <div className={classnames('hero', css.hero)}>
+    <div className="hero--text">텍스트</div>
+    <div className="hero--image"></div>
   </div>
+)
+const HomeSearch: React.FunctionComponent = () => (
+  <div className={classnames('search', css.search)}>
+    <div className="search--input">
+
+    </div>
+    <div className="search--result"></div>
+  </div>
+)
+export const Home: React.FunctionComponent = props =>
+  (<div className={classnames('home', css.home)}>
+    <HomeHero />
+    <HomeSearch />
+    <ProjectList children={} />
+  </div>)
