@@ -25,8 +25,8 @@ export const Nav: React.FunctionComponent = props => (
         </Link>
       </li>
       <li>
-        <Link href="/SSR">
-          <a>SSR</a>
+        <Link href="/about">
+          <a>About</a>
         </Link>
       </li>
       <li>

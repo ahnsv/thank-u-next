@@ -1,9 +1,8 @@
 import Layout from '../layouts'
-const About = () => (
+export const About = () => (
     <div>
         <Layout>
-            <p>This is About</p>
+            About
         </Layout>
     </div>
 )
-export default About
