@@ -1,7 +1,7 @@
 {
   "name": "thank-u-next",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "index.ts",
   "repository": "https://github.com/ahnsv/thank-u-next",
   "author": "ahnopologetic <ahnsv@bc.edu>",
   "license": "MIT",
