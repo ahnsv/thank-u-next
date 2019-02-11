@@ -9,15 +9,13 @@ export const Home: React.FunctionComponent = props => (
       }
       .home > div {
         flex: 1;
-        display: flex;
-        flex-direction: row;
         height: calc(50vh - 60px);
-        justify-content: center;
-        align-items: center;
+        justify-content: end;
+        padding: 0 2vw;
       }
       .hero {
-      }
-      .hero-background {
+        display: flex;
+        align-items: center;
         /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
         background: rgb(30, 87, 153); /* Old browsers */
         background: -moz-linear-gradient(
@@ -42,20 +40,31 @@ export const Home: React.FunctionComponent = props => (
           rgba(125, 185, 232, 1) 100%
         ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw));
-        flex: 1;
+        -webkit-clip-path: polygon(1% 0, 100% 0, 68% 62%, 0 91%);
+        clip-path: polygon(1% 0, 100% 0, 68% 62%, 0 91%);
       }
-      .hero-text {
-        flex: 1;
+      .content {
+        align-items: start;
+        background-color: lightcoral;
+        -webkit-clip-path: polygon(
+          50% 0%,
+          100% 0,
+          100% 75%,
+          84% 100%,
+          11% 62%,
+          0% 25%
+        );
+        clip-path: polygon(50% 0%, 100% 0, 100% 75%, 84% 100%, 11% 62%, 0% 25%);
       }
     `}</style>
     <div className="hero">
-      <div className="hero-background"></div>
       <div className="hero-text">
-        Hello World,
-        This is Sangtae Ahn
+        <h1>Hello World,</h1>
+        <h3>This is Sangtae Ahn</h3>
       </div>
     </div>
-    <div className="content">Content</div>
+    <div className="content">
+      <h1 className="content--title">Content</h1>
+    </div>
   </div>
 );

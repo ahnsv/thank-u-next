@@ -1,8 +1,7 @@
 import Layout from '../layouts'
-export const About = () => (
-    <div>
+import * as React from 'react'
+export default props => (
         <Layout>
             About
         </Layout>
-    </div>
 )

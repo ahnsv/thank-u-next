@@ -8,6 +8,7 @@ export const Header: React.FunctionComponent = props => (
         .header {
           display: flex;
           flex-direction: row;
+          padding: 0 3vw;
         }
         .header > h2 {
           margin-right: auto;

@@ -25,6 +25,10 @@ export const Layout: React.FunctionComponent = props => (
           height: 100%;
         }
 
+        h3, h4, h5, h6 {
+          color: #898f9c;
+        }
+
         body > div {
           height: inherit;
           width: inherit;
