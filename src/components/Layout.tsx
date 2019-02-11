@@ -8,15 +8,6 @@ export const Layout: React.FunctionComponent = props => (
     {/*language=PostCSS*/}
     <style jsx global>
       {`
-        /**
-* Shout out to Blank
-* http://blankcorp.kr/sp.php?p=ci
-*/
-        @font-face {
-          font-family: "Black Sans";
-          src: url("/static/fonts/blank_Sans_Bold.woff2");
-        }
-
         html,
         body,
         h1,
@@ -27,7 +18,7 @@ export const Layout: React.FunctionComponent = props => (
         h6,
         ul,
         li {
-          font-family: "Black Sans";
+          font-family: 'Noto Sans KR', sans-serif;
           margin: 0;
           padding: 0;
           width: 100%;

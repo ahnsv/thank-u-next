@@ -41,7 +41,7 @@ export default class extends Document {
           crossOrigin="anonymous"
         />
         <link rel="shortcut icon" href="/static/favicon.ico"/>
-        <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Noto+Sans+KR" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,900&amp;subset=korean" rel="stylesheet"/>
         <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes,String.prototype.includes,Array.prototype.findIndex,Object.entries"></script>
         {!DEV && FB_TRACKING_ID && (
           <script
